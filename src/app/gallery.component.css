@@ -1,0 +1,37 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .painting-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .painting-container img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .full-image-container {
+    margin-top: 20px;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .thumbnail-container div {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
